@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 50px 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: auto;
+ }
+
+.p{
+    color: #555;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: 10;
+}
+
+#first {
+    background-image: url('D.MP4');
+    opacity: 1;
+    height: 800px;
+}
+
+nav ul {
+    position: absolute;
+    top: 0;
+    right:0;
+    padding: 20px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    justify-content:  space-between;
+}
+
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px;
+    padding: 30px 30px;
+    opacity: 100px;
+}
+
+.ahome{
+    border-radius: 20px;
+    background:rgb(250, 186, 66);
+    padding: 10px;
+    width: 100px;
+    height: 150px;
+    font-size: 27px;color: darkred;
+}
+.atags1{
+    color:white;
+    text-shadow: 3px 3px 5px #000000;
+    font-size: 27px;
+    transition: 0.2s;
+}
+
+.atags1:hover{
+    border-radius: 20px;
+    background:rgb(250, 186, 66);
+    padding: 10px;
+    width: 100px;
+    height: 150px;
+    font-size: 27px;
+}
+
+.headers1{
+    font-size: 70px;
+    font-family:  'Times New Roman';
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.headers2{
+    font-family: Calibri;font-size: 60px;color: rgb(2, 2, 99);font-weight: 2000;
+}
+
+.headers3{
+    color: rgb(239, 192, 23); font-family: Calibri;font-size: 50px; font-weight: 80 
+}
+
+#campus {
+    background-image: url('mvj2.webp');
+    height: 500px;
+}
+.atags{
+    border-radius: 5px 50px;
+    background:rgb(22, 22, 111);
+    padding: 20px; 
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 10; 
+    color: white;
+}
+.atags:hover{
+    color:rgb(250, 186, 66); 
+}
+
+.chairman{
+    position: relative; top:0; bottom:0;  padding: 200px 200px; border-radius: 25px;
+    border: 2px solid #9a9a97;
+    padding: 30px;
+    width: 400px;
+}
+
+#contact {
+    background-image: url('mvj\ logo\ 3.jpg');
+    height: 700px;
+}
+
+#div1{
+    background-color: #242323;
+    width:25%;
+    float: right;
+    height: 700px;
+}
+#div2{
+    background-color: darkblue;
+    width:75%;
+    float: right;
+    height: 700px;
+    opacity: 0.75;
+}
+.head1{
+    color: rgb(250, 186, 66);
+    font-family:Verdana  ;
+    font-weight: 10;
+    font-size: 20px;padding-left: 30px;letter-spacing: 3px;
+}
+.p1{
+    color: rgb(199, 199, 189);
+    font-family:Verdana ;
+    font-weight: 10;
+    font-size: 18px; padding-left: 30PX;word-spacing: 3px; 
+ }
+.head2{
+    color: rgb(255, 132, 0);
+    padding-top: 80px ;
+    padding-left: 50px;opacity: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+.p2{
+    font-family: Verdana; 
+    font-size: 20px;
+    padding-left: 50px;color:rgb(199, 199, 189);
+  }
+
+.cwo{
+    font-family: Verdana;
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.cw:hover{
+    color: rgb(250, 186, 66);
+   
+}
+.crs{
+    font-family: Verdana;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    font-weight: 10;
+}
+.crs:hover{
+    color: rgb(250, 186, 66);
+    transition: 0.2s;
+}
+.phno{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 10;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border-style: dotted;
+    border-width: 2px;
+    height: 50px;
+    background-color: bisque;
+    color: darkred;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: rgb(199, 199, 189);
+    font-size: 1rem;
+}
